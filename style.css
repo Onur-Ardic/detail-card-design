@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e3ebf3;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.card {
+  background-color: #fff;
+  width: 400px;
+  height: 320px;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.card img {
+  width: 150px;
+  margin: 1rem;
+  border: 5px solid #acacb4;
+  border-radius: 1rem;
+}
+
+.card .card-header {
+  display: flex;
+}
+
+.card .card-header .card-title {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+}
+
+.card .card-header span {
+  background-color: #ac36b9;
+  font-size: 0.7rem;
+  padding: 0.3rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card .card-bottom {
+  background-color: #e3ebf3;
+  width: 370px;
+  margin: 0 auto;
+  padding: 0.9rem;
+  border-radius: 0.7rem;
+  border: 1px solid #acacb4;
+}
+
+.card .card-bottom .comments {
+  display: flex;
+  justify-content: center;
+}
+
+.card .card-bottom .comments span {
+  padding: 0 2rem;
+  font-size: 1.6rem;
+}
+
+.card .card-bottom .comment-icon {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.card .card-bottom .comment-icon span {
+  padding: 0 0.8rem;
+  font-size: 0.7rem;
+}
+
+.card .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.card .button .post {
+  padding: 0.7rem 3rem;
+  margin: 0.3rem;
+  background-color: #111f3e;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  border: 1px solid #111f3e;
+}
+
+.card .button .post:hover {
+  background-color: #fff;
+  color: #111f3e;
+}
+
+.card .button .dash {
+  padding: 0.7rem 3rem;
+  margin: 0.3rem;
+  background-color: #fff;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  border: 1px solid #111f3e;
+}
